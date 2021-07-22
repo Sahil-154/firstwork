@@ -1,0 +1,200 @@
+/* ********************************* TAG Selectors ************************** */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #1b4053;
+  font-size: 1.2rem;
+}
+
+h1 {
+  margin: 30px auto 0 auto;
+  font-size: 4rem;
+  padding-top: 50px;
+  font-family: "Sacramento", cursive;
+}
+
+h3 {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+h2,
+h3 {
+  color: #a5f8f8;
+}
+
+a {
+  /* margin: auto 10px; */
+  color: rgb(245, 163, 201);
+  line-height: 2;
+  text-decoration: none;
+}
+
+p {
+  color: #f3f4ed;
+  font-size: 1rem;
+}
+
+hr {
+  border-color: black;
+  border: none;
+  border-top: dotted;
+  border-width: 6px;
+  width: 8%;
+  margin: 45px auto;
+}
+/* a:hover {
+  color: #a5f8f8;
+} */
+
+/********************************** CLASS Selectors ***************************/
+.top-container {
+  /* z-index: -2; */
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  /* background-color: #1b4053; */
+  color: #a5f8f8;
+}
+
+.img-cloud {
+  position: absolute;
+  right: 400px;
+}
+
+.img-cloud2 {
+  position: absolute;
+  left: 400px;
+}
+
+.img-mountain {
+  /* width: 689px; */
+  padding-bottom: 20px;
+}
+
+.profile {
+  margin: 90px auto;
+  text-align: center;
+  width: 40%;
+}
+.profile p {
+  margin: auto 30px;
+  line-height: 2;
+  text-align: center;
+}
+.profile h2 {
+  margin: 50px auto;
+  font-size: 2rem;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 200px;
+}
+
+.skills h2 {
+  margin: 8% auto;
+  font-size: 2rem;
+}
+.skill-row {
+  width: 50%;
+  margin: 85px auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.skill-row p {
+  margin-bottom: 15%;
+}
+
+.skill-img {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillie-img {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 6% auto;
+  text-align: center;
+  width: 50%;
+}
+
+.contact-me h2 {
+  font-size: 2rem;
+}
+
+.contact-me h3 {
+  font-size: 1.2rem;
+  margin: 50px auto;
+}
+
+.contact-me p {
+  line-height: 2;
+  font-size: 1rem;
+  margin-bottom: 6%;
+}
+.btn {
+  -webkit-border-radius: 84px;
+  -moz-border-radius: 84px;
+  border-radius: 84px;
+  color: #000000;
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #a5f8f8;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: outset #ffffff 0;
+  background: #41b3a4;
+  background-image: -webkit-linear-gradient(top, #41b3a4, #72d3dc);
+  background-image: -moz-linear-gradient(top, #41b3a4, #72d3dc);
+  background-image: -ms-linear-gradient(top, #41b3a4, #72d3dc);
+  background-image: -o-linear-gradient(top, #41b3a4, #72d3dc);
+  background-image: -webkit-gradient(to bottom, #41b3a4, #72d3dc);
+  -webkit-border-radius: 49px;
+  -moz-border-radius: 49px;
+  border-radius: 49px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #11999e;
+  width: 100%;
+  height: 150px;
+  padding-top: 3%;
+  /* display: inline;
+  padding: auto 10 auto 10; */
+}
+
+.footer-link {
+  margin: auto 20px;
+  color: black;
+}
+
+/********************************** ID Selectors ***************************/
+#p1 {
+  font-weight: normal;
+  color: #a5f8f8;
+  font-size: 1.5rem;
+  font-family: "Merriweather", serif;
+}
+
+#copyright {
+  padding-top: 20px;
+}
